@@ -1,16 +1,16 @@
 PODS:
+  - AcessoBio (2.0.2):
+    - CryptoSwift
+    - JOSESwift
+    - Sentry
   - CryptoSwift (1.4.2)
   - JOSESwift (2.4.0)
   - Sentry (7.5.4):
     - Sentry/Core (= 7.5.4)
   - Sentry/Core (7.5.4)
-  - unicocheck-ios (1.0.2):
-    - CryptoSwift
-    - JOSESwift
-    - Sentry
 
 DEPENDENCIES:
-  - unicocheck-ios (from `https://github.com/acesso-io/unico-check-ios`, tag `1.0.2`)
+  - AcessoBio (from `/Users/bmonteiro/Documents/Github/acessobio-ios`)
 
 SPEC REPOS:
   trunk:
@@ -19,21 +19,15 @@ SPEC REPOS:
     - Sentry
 
 EXTERNAL SOURCES:
-  unicocheck-ios:
-    :git: https://github.com/acesso-io/unico-check-ios
-    :tag: 1.0.2
-
-CHECKOUT OPTIONS:
-  unicocheck-ios:
-    :git: https://github.com/acesso-io/unico-check-ios
-    :tag: 1.0.2
+  AcessoBio:
+    :path: "/Users/bmonteiro/Documents/Github/acessobio-ios"
 
 SPEC CHECKSUMS:
+  AcessoBio: d9211d4a978f84271fb3ef9cf1c3c1b257c25ebe
   CryptoSwift: a532e74ed010f8c95f611d00b8bbae42e9fe7c17
   JOSESwift: 7ff178bb9173ff42c6e990929a9f2fa702a34f69
   Sentry: 5c5dd4005f3b7b9765d5a8871232cddbd0d888b7
-  unicocheck-ios: 9b95132b049cb1baeb77e2500a61980830ff945b
 
-PODFILE CHECKSUM: 172cbd192c5d248d1514d4ab79197066cc7222bc
+PODFILE CHECKSUM: 2a904abb9fc2bd71a76369b779fd02f4f35733ad
 
-COCOAPODS: 1.10.2
+COCOAPODS: 1.11.2

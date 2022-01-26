@@ -61,4 +61,8 @@
     return nil;
 }
 
+- (id)getColorSilhouetteNeutral {
+    return nil;
+}
+
 @end

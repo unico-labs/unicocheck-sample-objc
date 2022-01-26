@@ -7,6 +7,7 @@
 
 #import "UnicoSampleView.h"
 #import "UnicoTheme.h"
+#import <AcessoBio/AcessoBio-Swift.h>
 
 @interface UnicoSampleView ()
 
@@ -38,10 +39,41 @@
 
 #pragma mark - IBActions
 
+/*
+ Para gerar o arquivo json é necessário criar uma API key. Siga os passos abaixo:
+ - Acesse o portal do cliente da unico com suas credenciais;
+ - Navegue em Configurações > Integração > API Key;
+ - Crie ou edite uma nova API Key;
+ - Marque o campo "Utiliza liveness ativo" como SIM caso queira habilitar a câmera Prova de Vidas ou NÃO caso queira utilizar a Câmera Normal ou Inteligente;
+ - Marque o campo "Utiliza autenticação segura na SDK" como SIM;
+ - Expanda a seção SDK iOS, adicione o nome de sua aplicação iOS e o Bundle ID;
+ - Salve as alterações;
+ - Neste momento, retornará para a página de API Key e ao lado da API Key desejada, pressione o botão de download do Bundle;
+ - Selecione a opção iOS;
+ - Clique em "Gerar";
+ Atenção: Uma nova aba será aberta contendo informações do projeto em formato JSON.
+ Caso a nova aba não abra, por favor, verifique se o seu navegador está bloqueando os popups.
+ - Salve o conteúdo desta nova aba em um novo arquivo JSON;
+ - Adicione o arquivo salvo no seu projeto e adicione abaixo o nome do arquivo json no "jsonConfigName".
+ */
 - (void)openCamera {
-    [[unicoCheck build] prepareSelfieCamera:self];
+    /*
+         Para utilizar a Câmera Normal:
+         
+             [unicoCheck setSmartFrame:false];
+             [unicoCheck setAutoCapture:false];
+             [[unicoCheck build]prepareSelfieCamera:self];
+         
+         Para utilizar a Câmera Inteligente:
+         
+             [unicoCheck setSmartFrame:true];
+             [unicoCheck setAutoCapture:true];
+             [[unicoCheck build]prepareSelfieCamera:self jsonConfigName: @""];
+         
+         Para utlizar o Prova de Vidas com Interação:
+         */
+        [[unicoCheck build] prepareSelfieCamera:self jsonConfigName: @""];
 }
-
 
 #pragma mark - SelfieCameraDelegate
 
@@ -49,7 +81,10 @@
     [cameraOpener open:self];
 }
 
-- (void)onCameraFailed:(NSString *)message {
+/*
+ Com a nova versão, o método onCameraFailed também foi alterado, segue o exemplo abaixo:
+ */
+- (void)onCameraFailed:(ErrorPrepare *)message {
     NSLog(@"error message: %@", message);
 }
 
