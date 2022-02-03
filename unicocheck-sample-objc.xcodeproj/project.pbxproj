@@ -122,7 +122,6 @@
 				E6FC19DC276A1920001AF4BF /* Frameworks */,
 				E6FC19DD276A1920001AF4BF /* Resources */,
 				99A6698775CF05E2930933B6 /* [CP] Embed Pods Frameworks */,
-				F7C16CBDC0DE560AABDD2F64 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -216,23 +215,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-unicocheck-sample-objc/Pods-unicocheck-sample-objc-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		F7C16CBDC0DE560AABDD2F64 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-unicocheck-sample-objc/Pods-unicocheck-sample-objc-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-unicocheck-sample-objc/Pods-unicocheck-sample-objc-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-unicocheck-sample-objc/Pods-unicocheck-sample-objc-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
