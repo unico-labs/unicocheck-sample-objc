@@ -1,0 +1,10 @@
+{
+    "default": true,
+    "line-length": false,
+    "no-inline-html": {
+        "allowed_elements": ["br"]
+    },
+    "MD007": {
+        "indent": 4
+    }
+}
