@@ -1,39 +1,26 @@
 PODS:
-  - CryptoSwift (1.4.2)
   - JOSESwift (2.4.0)
-  - Sentry (7.5.4):
-    - Sentry/Core (= 7.5.4)
-  - Sentry/Core (7.5.4)
-  - unicocheck-ios (1.0.2):
-    - CryptoSwift
+  - Sentry (7.9.0):
+    - Sentry/Core (= 7.9.0)
+  - Sentry/Core (7.9.0)
+  - unicocheck-ios (2.0.0):
     - JOSESwift
     - Sentry
 
 DEPENDENCIES:
-  - unicocheck-ios (from `https://github.com/acesso-io/unico-check-ios`, tag `1.0.2`)
+  - unicocheck-ios
 
 SPEC REPOS:
   trunk:
-    - CryptoSwift
     - JOSESwift
     - Sentry
-
-EXTERNAL SOURCES:
-  unicocheck-ios:
-    :git: https://github.com/acesso-io/unico-check-ios
-    :tag: 1.0.2
-
-CHECKOUT OPTIONS:
-  unicocheck-ios:
-    :git: https://github.com/acesso-io/unico-check-ios
-    :tag: 1.0.2
+    - unicocheck-ios
 
 SPEC CHECKSUMS:
-  CryptoSwift: a532e74ed010f8c95f611d00b8bbae42e9fe7c17
   JOSESwift: 7ff178bb9173ff42c6e990929a9f2fa702a34f69
-  Sentry: 5c5dd4005f3b7b9765d5a8871232cddbd0d888b7
-  unicocheck-ios: 9b95132b049cb1baeb77e2500a61980830ff945b
+  Sentry: 2f7e91f247cfb05b05bd01e0b5d0692557a7687b
+  unicocheck-ios: d450f8a344c16f385b97614d14f1a0a23328e625
 
-PODFILE CHECKSUM: 172cbd192c5d248d1514d4ab79197066cc7222bc
+PODFILE CHECKSUM: 8d8fcebdadea6aa9a4e37ecb4eb1de97f75ef622
 
-COCOAPODS: 1.10.2
+COCOAPODS: 1.11.2

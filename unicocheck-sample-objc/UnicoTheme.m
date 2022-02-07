@@ -9,6 +9,18 @@
 
 @implementation UnicoTheme
 
+- (id)getColorSilhouetteError {
+    return [UIColor redColor];
+}
+
+- (id)getColorSilhouetteSuccess {
+    return [UIColor greenColor];
+}
+
+- (id)getColorSilhouetteNeutral {
+    return [UIColor yellowColor];
+}
+
 - (id)getColorBackground {
     return nil;
 }
@@ -34,14 +46,6 @@
 }
 
 - (id)getColorIconTakePictureButton {
-    return nil;
-}
-
-- (id)getColorSilhouetteError {
-    return nil;
-}
-
-- (id)getColorSilhouetteSuccess {
     return nil;
 }
 
