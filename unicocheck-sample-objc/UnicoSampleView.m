@@ -55,6 +55,13 @@
          
          Para utlizar o Prova de Vidas com Interação:
          */
+    
+        /// with AcessoBioConfigDataSource implementation
+        //  [[unicoCheck build] prepareSelfieCamera:self config: [YourUnicoConfigClass new]];
+
+        // or
+
+        /// with JSON config
         [[unicoCheck build] prepareSelfieCamera:self jsonConfigName: @""];
 }
 /*

@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		628E6F0F1F495C7E0582DB1F /* Pods_unicocheck_sample_objc.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2087E5A79708707B434ECF9A /* Pods_unicocheck_sample_objc.framework */; };
+		8322932D28188EC600002035 /* UnicoConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 8322932C28188EC600002035 /* UnicoConfig.m */; };
 		E6FC19E4276A1920001AF4BF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E6FC19E3276A1920001AF4BF /* AppDelegate.m */; };
 		E6FC19E7276A1920001AF4BF /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E6FC19E6276A1920001AF4BF /* SceneDelegate.m */; };
 		E6FC19EA276A1920001AF4BF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6FC19E9276A1920001AF4BF /* ViewController.m */; };
@@ -23,6 +24,8 @@
 		2087E5A79708707B434ECF9A /* Pods_unicocheck_sample_objc.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_unicocheck_sample_objc.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E1CCB9F095E4F3529FC6E22 /* Pods-unicocheck-sample-objc.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-unicocheck-sample-objc.debug.xcconfig"; path = "Target Support Files/Pods-unicocheck-sample-objc/Pods-unicocheck-sample-objc.debug.xcconfig"; sourceTree = "<group>"; };
 		747986DB31BE64BF1B16DCC6 /* Pods-unicocheck-sample-objc.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-unicocheck-sample-objc.release.xcconfig"; path = "Target Support Files/Pods-unicocheck-sample-objc/Pods-unicocheck-sample-objc.release.xcconfig"; sourceTree = "<group>"; };
+		8322932B28188EC600002035 /* UnicoConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UnicoConfig.h; sourceTree = "<group>"; };
+		8322932C28188EC600002035 /* UnicoConfig.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UnicoConfig.m; sourceTree = "<group>"; };
 		E6FC19DF276A1920001AF4BF /* unicocheck-sample-objc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "unicocheck-sample-objc.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6FC19E2276A1920001AF4BF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E6FC19E3276A1920001AF4BF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -97,6 +100,8 @@
 				E6FC19FC276A1992001AF4BF /* UnicoSampleView.m */,
 				E6FC19FE276A3073001AF4BF /* UnicoTheme.h */,
 				E6FC19FF276A3073001AF4BF /* UnicoTheme.m */,
+				8322932B28188EC600002035 /* UnicoConfig.h */,
+				8322932C28188EC600002035 /* UnicoConfig.m */,
 			);
 			path = "unicocheck-sample-objc";
 			sourceTree = "<group>";
@@ -228,6 +233,7 @@
 				E6FC19E4276A1920001AF4BF /* AppDelegate.m in Sources */,
 				E6FC19F5276A1922001AF4BF /* main.m in Sources */,
 				E6FC19E7276A1920001AF4BF /* SceneDelegate.m in Sources */,
+				8322932D28188EC600002035 /* UnicoConfig.m in Sources */,
 				E6FC1A00276A3073001AF4BF /* UnicoTheme.m in Sources */,
 				E6FC19FD276A1992001AF4BF /* UnicoSampleView.m in Sources */,
 			);
