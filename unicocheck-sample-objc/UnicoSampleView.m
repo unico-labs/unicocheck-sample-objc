@@ -55,7 +55,14 @@
          
          Para utlizar o Prova de Vidas com Interação:
          */
-        [[unicoCheck build] prepareSelfieCamera:self jsonConfigName: @""];
+    
+        /// with AcessoBioConfigDataSource implementation
+        [[unicoCheck build] prepareSelfieCamera:self config: [YourUnicoConfigClass new]];
+
+        // or
+
+        /// with JSON config
+        //  [[unicoCheck build] prepareSelfieCamera:self jsonConfigName: @""];
 }
 /*
  Para gerar o arquivo json é necessário criar uma API key. Siga os passos abaixo:
