@@ -57,12 +57,12 @@
          */
     
         /// with AcessoBioConfigDataSource implementation
-        //  [[unicoCheck build] prepareSelfieCamera:self config: [YourUnicoConfigClass new]];
+        [[unicoCheck build] prepareSelfieCamera:self config: [YourUnicoConfigClass new]];
 
         // or
 
         /// with JSON config
-        [[unicoCheck build] prepareSelfieCamera:self jsonConfigName: @""];
+        //  [[unicoCheck build] prepareSelfieCamera:self jsonConfigName: @""];
 }
 /*
  Para gerar o arquivo json é necessário criar uma API key. Siga os passos abaixo:
