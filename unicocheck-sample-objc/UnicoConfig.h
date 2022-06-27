@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface YourUnicoConfigClass : AcessoBioConfigDataSource {}
+@interface UnicoConfig : NSObject< AcessoBioConfigDataSource>
 
 @end
 

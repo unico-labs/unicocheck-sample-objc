@@ -7,6 +7,7 @@
 
 #import "UnicoSampleView.h"
 #import "UnicoTheme.h"
+#import "UnicoConfig.h"
 #import <AcessoBio/AcessoBio-Swift.h>
 
 @interface UnicoSampleView ()
@@ -57,7 +58,7 @@
          */
     
         /// with AcessoBioConfigDataSource implementation
-        [[unicoCheck build] prepareSelfieCamera:self config: [YourUnicoConfigClass new]];
+        [[unicoCheck build] prepareSelfieCamera:self config: [UnicoConfig new]];
 
         // or
 

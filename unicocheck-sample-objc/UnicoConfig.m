@@ -8,11 +8,9 @@
 #import "UnicoConfig.h"
 #import <AcessoBio/AcessoBio-Swift.h>
 
-@end
-
 ///Esta classe é um exemplo de como implementar o AcessoBioConfigDataSource, entretanto é preferível que esses dados venham de algum Remote Config ou Backend.
 
-@implementation UnicoConfig
+@implementation UnicoConfig : NSObject
 
 - (NSString * _Nonnull)getBundleIdentifier {
     return @"<YOUR_MOBILE_BUNDLE_IDENTIFIER>";
