@@ -21,7 +21,5 @@
 			</array>
 		</dict>
 	</dict>
-	<key>NSCameraUsageDescription</key>
-	<string>O $(PRODUCT_NAME) precisa da permissão para prosseguir</string>
 </dict>
 </plist>
